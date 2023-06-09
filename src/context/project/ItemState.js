@@ -201,7 +201,7 @@ const ItemState=(props)=>{
     const logout=async()=>{
         
         const tenantID = process.env.MICROSOFT_GRAPH_TENANT_ID;
-        const logoutEndpoint = `https://login.microsoftonline.com/${tenantID}/oauth2/v2.0/logout?post_logout_redirect_uri=http://localhost:3000/`;
+        const logoutEndpoint = `https://login.microsoftonline.com/${tenantID}/oauth2/v2.0/logout?post_logout_redirect_uri=https://btp-frontend-beryl.vercel.app/`;
         window.location.href = logoutEndpoint;
     }
     

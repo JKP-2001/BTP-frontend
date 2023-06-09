@@ -85,7 +85,7 @@ const AuthState = (props) => {
     }
 
     const loginStudent = async (email, password)=>{
-        const response = await fetch(`http://localhost:5000/auth/login`, {
+        const response = await fetch(`${url}/auth/login`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -196,7 +196,7 @@ const AuthState = (props) => {
 
 
       const studentDetails = async()=>{
-        window.location.href = "http://localhost:5000/auth/microsoft";
+        window.location.href = "https://btp-mech.onrender.com/auth/microsoft";
         // window.location.href = "http://localhost:5000/auth/microsoft";
         
     }
