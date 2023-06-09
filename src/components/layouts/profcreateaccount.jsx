@@ -50,16 +50,16 @@ const Createaccount=()=>{
                 
                     <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login" >
                         <form className='formcreateaccount' onSubmit={submit}  >
-                        <div class="form-outline mb-4" className="proflogininput">
+                        <div class="form-outline mb-2" className="proflogininput">
                             <input className='form-control'  name='name' value={user.name} placeholder="Name" required autoFocus onChange={detectChanges} style={{"width":"100%"}}/>
                         </div>
 
-                        <div class="form-outline mb-4" className="proflogininput">
+                        <div class="form-outline mb-2" className="proflogininput">
                             <input className='form-control' name='email' value={user.email} type='email' placeholder="Email" required onChange={detectChanges} />
                         </div>
 
                         <button class="btn btn-primary btn-block btnlength" type="submit" >Signup</button>
-                        <div className='divnote'>NOTE:Once you "Signup" you will receive a mail on this Email account.</div>
+                        <div className='text-red-600 text-center py-2 text-sm'>NOTE : Once you "Signup" you will receive a mail on this Email account.</div>
                         </form>
                     </div>
                 

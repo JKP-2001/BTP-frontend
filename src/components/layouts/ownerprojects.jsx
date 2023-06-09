@@ -108,7 +108,7 @@ window.onclick = function(event) {
       const email="riyehok530@razuz.com"
       // await downloadDetails(email);
       window.open(
-        'http://localhost:5000/project/intrestedpeople/riyehok530@razuz.com',
+        'https://btp-mech.onrender.com/project/intrestedpeople/riyehok530@razuz.com',
         '_blank' // <- This is what makes it open in a new window.
         );
       // window.location.href="http://localhost:5000/project/riyehok530@razuz.com"
@@ -151,11 +151,11 @@ window.onclick = function(event) {
                     <Link to={`/mainpage`} class="text-gray-700 hover:text-gray-500 px-3 py-2 no-underline rounded-md text-xl font-x-large" >All Projects</Link>
                   </div>
                   {mobileMenu?(<div className='flex md:hidden'  onClick={()=>setMobileMenu(false)}>
-                            <span class="material-symbols-outlined text-white text-xl ml-12 mr-2">
+                            <span class="material-symbols-outlined text-black text-xl ml-12 mr-2">
                             cancel
                             </span></div>):(
                           <div className='flex md:hidden'  onClick={()=>setMobileMenu(true)}>
-                          <span class="material-symbols-outlined text-white text-xl ml-12 mr-2">
+                          <span class="material-symbols-outlined text-black text-xl ml-12 mr-2">
                           menu_open
                           </span>
                       </div>)}

@@ -8,7 +8,7 @@ function Accountpage(){
         <div>
             <Header />
             <div className='body2div'>
-                <Link className='goback' to={`/`}><i class="fa-sharp fa-solid fa-arrow-left fa-xl" style={{"margin-top":"30px"}}/></Link>
+                <Link className='goback' to={`/`}><i class="fa-sharp fa-solid fa-arrow-left text-3xl md:text-4xl my-4 md:my-2 ml-2"/></Link>
                 <Profcreateaccount />
             </div>
         </div>

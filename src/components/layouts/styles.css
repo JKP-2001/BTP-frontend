@@ -13,7 +13,7 @@
 
 .mainheader{
     width: 100vw;
-    height:23vh;
+    height:20vh;
     background-color: #10A19D;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@
     padding:0px 10vw 0 5vw;
 }
 .headerimage{
-    width:12vw;
+    width:10vw;
     height:auto;
     padding:1.5vh 1.5vw;
 }
@@ -110,8 +110,8 @@
 .proflogininput{
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left:30px;
-    padding-right:30px;
+    padding-left:10px;
+    padding-right:10px;
 }
 .profloginlink{
     padding-top: 15px;
@@ -121,7 +121,6 @@
 .centerr{
     width: 30vw;
     margin: auto;
-    padding:10px;
 }
 .backgr{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -211,8 +210,8 @@
  .formshadow{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 0px 0;
-    padding:40px 20px 0;
-    border-radius: 7px;
+    padding:30px 30px 0;
+    border-radius: 6px;
     height: fit-content;
  }
  .centerfull button{
@@ -412,7 +411,6 @@
 .centerrr{
     width: 30vw;
     margin: auto;
-    padding:10px;
 }
 .centerrr form{
     display: flex;
@@ -1312,8 +1310,18 @@ and (max-device-width : 699px)
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     }
     .headerimage{
-        height: 12vh;
+        height: 8vh;
         width: auto;
+        padding: 4px;
+    }
+    .mainheader{
+        width: 100vw;
+        height:15vh;
+        background-color: #10A19D;
+        display: flex;
+        align-items: center;
+        padding: 0.7rem 0;
+        margin: 0;
     }
     header{
     width: 100vw;
@@ -1362,15 +1370,15 @@ and (max-device-width : 699px)
         width: 60%;
     }
     .centerr{
-        width: 70vw;
+        width: 80vw;
         font-size: small;
         padding: 0px;
     }
     .centerrr{
-        width: 70vw;
+        width: 80vw;
         font-size:small;
         padding: 0px;
-        height: 60vh;
+        height: 50vh;
     }
     .centerfull{
         width: 70vw;
@@ -1456,7 +1464,7 @@ and (max-device-width : 1024px)
     }
     .proflogininput{
         padding-left: 10%;
-        padding-right: 10%px;
+        padding-right: 10%;
     }
     .centerr{
         width: 40vw;

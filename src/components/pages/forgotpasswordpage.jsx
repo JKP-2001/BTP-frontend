@@ -8,7 +8,7 @@ function Resetpasswordfunction(){
     return(
         <div>
             <Header />
-          <Link className='goback' to={`/login`}><i class="fa-sharp fa-solid fa-arrow-left fa-2x" style={{"margin-top":"30px"}}/></Link>
+          <Link className='goback' to={`/login`}><i class="fa-sharp fa-solid fa-arrow-left text-3xl md:text-4xl" style={{"margin-top":"30px"}}/></Link>
 
             <Forgotpassword />
         </div>
