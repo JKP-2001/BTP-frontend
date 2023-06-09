@@ -9,7 +9,7 @@ const AuthState = (props) => {
     const [token,setToken]=useState()
     const [interest,setInterest]=useState([])
 
-    const url = "http://localhost:5000"
+    const url = "https://btp-mech.onrender.com"
 
     const registerUser = async (name, email) => {
         const response = await fetch(`${url}/user/createuser`, {
