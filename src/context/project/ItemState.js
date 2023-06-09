@@ -17,7 +17,7 @@ const ItemState=(props)=>{
     const [single,setSingle]=useState([]);
     const [partner,setPartner]=useState([]);
 
-    const url="http://localhost:5000";
+    const url="https://btp-mech.onrender.com";
     const dispatch = useDispatch();
 
     
