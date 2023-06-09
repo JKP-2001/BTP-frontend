@@ -17,7 +17,7 @@ const Mainlogin=()=>{
         <div>
             <Header />
             <div className='body2div'>
-                <Link className='goback' to={`/`}><i class="fa-sharp fa-solid fa-arrow-left fa-xl my-8 ml-2"/></Link>
+                <Link className='goback' to={`/`}><i class="fa-sharp fa-solid fa-arrow-left text-3xl md:text-4xl my-4 md:my-2 ml-2"/></Link>
                 <Proflogin />
             </div>
         </div>

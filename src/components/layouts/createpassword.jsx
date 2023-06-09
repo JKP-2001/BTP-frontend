@@ -41,7 +41,7 @@ const Createpassword=()=>{
     
     return(
 <div className="center">
-<Link className='goback' to={`/owner`}><i class="fa-sharp fa-solid fa-arrow-left fa-2xl"/></Link>
+<Link className='goback' to={`/owner`}><i class="fa-sharp fa-solid fa-arrow-left text-3xl md:text-4xl"/></Link>
 
     <br/>
         <h1>Create Password for your account</h1>

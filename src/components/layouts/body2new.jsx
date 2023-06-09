@@ -36,40 +36,40 @@ const Body2 = ()=>{
         
     <div className="center">
         
- <div className='formshadow'>    
-<ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
-  <li class="nav-item" role="presentation">
-    <div class="nav-link active" className="newfunc3" id="tab-login" data-mdb-toggle="pill" role="tab"
-      aria-controls="pills-login" aria-selected="true">Login</div>
-  </li>
-  <li class="nav-item" role="presentation">
-    <div class="nav-link" className="newfunc4" id="tab-register" data-mdb-toggle="pill" role="tab"
-      aria-controls="pills-register" aria-selected="false">Register</div>
-  </li>
-</ul>
+        <div className='formshadow'>    
+        <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+          <li class="nav-item" role="presentation">
+            <div class="nav-link active" className="newfunc3" id="tab-login" data-mdb-toggle="pill" role="tab"
+              aria-controls="pills-login" aria-selected="true">Login</div>
+          </li>
+          <li class="nav-item" role="presentation">
+            <div class="nav-link" className="newfunc4" id="tab-register" data-mdb-toggle="pill" role="tab"
+              aria-controls="pills-register" aria-selected="false">Register</div>
+          </li>
+        </ul>
 
-<div class="tab-content">
+        <div class="tab-content">
 
-  <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
-    <form >
-     
-      <div class="form-outline mb-4">
-        <input type="text" id="registerUsername" class="form-control" />
-        <label class="form-label" for="registerUsername">Username</label>
-      </div>
+          <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+            <form >
+            
+              <div class="form-outline mb-2">
+                <input type="text" id="registerUsername" class="form-control" />
+                <label class="form-label" for="registerUsername">Username</label>
+              </div>
 
-    
-      <div class="form-outline mb-4">
-        <input type="email" id="registerEmail" class="form-control" />
-        <label class="form-label" for="registerEmail">Email</label>
-      </div>
+            
+              <div class="form-outline mb-4">
+                <input type="email" id="registerEmail" class="form-control" />
+                <label class="form-label" for="registerEmail">Email</label>
+              </div>
 
 
-    
-      <button type="submit" class="btn btn-primary btn-block mb-6">Create Account</button>
-    </form>
-  </div>
-</div>
+            
+              <button type="submit" class="btn btn-primary btn-block mb-6">Create Account</button>
+            </form>
+          </div>
+  </div>  
 </div>   
 
         
